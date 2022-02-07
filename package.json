@@ -1,0 +1,24 @@
+{
+  "name": "lesson5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:scripts": "webpack ./src/index.js -p",
+    "watch:scripts": "webpack ./src/index.js --mode=development --devtool eval-source-map -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vladyslav-Andrievych/front-end-tools-lesson5.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vladyslav-Andrievych/front-end-tools-lesson5/issues"
+  },
+  "homepage": "https://github.com/Vladyslav-Andrievych/front-end-tools-lesson5#readme",
+  "devDependencies": {
+    "webpack": "^5.68.0",
+    "webpack-cli": "^4.9.2"
+  }
+}
